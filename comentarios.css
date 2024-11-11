@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition:0,5s;
+    font-family: "Maven Pro", sans-serif;
+}
+
+li:hover {
+    color:rgb(5,146,146) ;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Maven Pro", sans-serif;
+    background: linear-gradient(to bottom, black,  rgb(5,146,146));
+    color: white;
+}
+
+#comment-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.comment-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.comment-box h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: white;
+}
+
+textarea::placeholder {
+    color: #bbb;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(5,146,146);
+    color: white;
+}
